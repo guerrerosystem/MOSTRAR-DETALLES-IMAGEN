@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="30dp"
+    android:layout_height="match_parent"
+    tools:context=".VerDetalles">
+
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="titulo"
+        android:textSize="30sp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/tvprecio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="precio"
+        android:textSize="30sp">
+
+    </TextView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:text="Realizar pago"
+        android:layout_height="wrap_content">
+
+    </Button>
+</LinearLayout>
